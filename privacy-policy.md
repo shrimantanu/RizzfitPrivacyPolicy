@@ -14,7 +14,7 @@ Rizzfit Member is a companion app for gym members. It lets you sign in, view you
 record gym check-ins, follow a diet plan, and chat privately with your trainer or gym owner.
 The App connects to our backend hosted on **Supabase**.
 
-**Contact:** shrimantanu@gmail.com
+**Contact:** support@rizzfit.in
 
 ---
 
@@ -107,7 +107,7 @@ except where we must keep it to comply with legal obligations.
 You can:
 - **Access or correct** your profile information from within the App.
 - **Request deletion** of your account and associated personal data by emailing us at
-  **shrimantanu@gmail.com**. We will action your request within a reasonable time.
+  **support@rizzfit.in**. We will action your request within a reasonable time.
 - **Withdraw consent** by discontinuing use of the App and requesting deletion.
 
 Depending on where you live, you may have additional rights under laws such as the GDPR or
@@ -142,4 +142,4 @@ where appropriate.
 
 Questions or requests about this policy or your data:
 
-**Rizzfit** — shrimantanu@gmail.com
+**Rizzfit** — support@rizzfit.in
