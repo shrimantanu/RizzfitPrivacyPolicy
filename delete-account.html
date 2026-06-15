@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rizzfit Member — Delete Your Account &amp; Data</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) { body { background: #16181c; color: #e6e6e6; } a { color: #7db3ff; } }
+  h1 { font-size: 1.8rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8884; padding-bottom: .25rem; }
+  .meta { color: #8a8a8a; font-size: .9rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #8884; padding: .5rem .6rem; text-align: left; vertical-align: top; font-size: .95rem; }
+  th { background: #8881; }
+  code { background: #8882; padding: .1rem .35rem; border-radius: 4px; font-size: .9em; }
+  ul, ol { padding-left: 1.25rem; }
+  .steps {
+    background: #4a90d922; border: 1px solid #4a90d966; border-radius: 8px;
+    padding: 1rem 1.25rem 1rem 2.25rem; margin: 1.25rem 0;
+  }
+  .steps li { margin: .5rem 0; }
+  .btn {
+    display: inline-block; margin: .5rem 0; padding: .6rem 1.1rem; border-radius: 8px;
+    background: #2f7de1; color: #fff; text-decoration: none; font-weight: 600;
+  }
+  .btn:hover { background: #2566b8; }
+</style>
+</head>
+<body>
+
+<h1>Delete Your Account &amp; Data</h1>
+<p class="meta"><strong>Rizzfit Member</strong> &mdash; developed by Rizzfit<br>
+Application ID: <code>com.rizzfit.member</code><br>
+Last updated: 15 June 2026</p>
+
+<p>This page explains how to request deletion of your <strong>Rizzfit Member</strong> account and the
+data associated with it. Rizzfit Member uses an account that is created when you <strong>sign in</strong>
+(with Google or your email) to view your membership, record check-ins, follow a diet plan, and chat with
+your trainer or gym owner.</p>
+
+<h2>How to request deletion</h2>
+<div class="steps">
+<ol>
+  <li>Open your email app and send a message <strong>from the same email address associated with your
+  Rizzfit Member account</strong> (this lets us verify the request is really yours).</li>
+  <li>Send it to <strong><a href="mailto:support@rizzfit.in?subject=Delete%20my%20account&amp;body=Please%20delete%20my%20Rizzfit%20Member%20account%20and%20all%20associated%20data.%20I%20am%20sending%20this%20from%20the%20email%20address%20associated%20with%20my%20account.">support@rizzfit.in</a></strong>.</li>
+  <li>Use the subject line <strong>&ldquo;Delete my account&rdquo;</strong>.</li>
+  <li>We will permanently delete your account and associated data and confirm by reply. Deletion completes
+  <strong>within 30 days</strong> of your request.</li>
+</ol>
+<a class="btn" href="mailto:support@rizzfit.in?subject=Delete%20my%20account&amp;body=Please%20delete%20my%20Rizzfit%20Member%20account%20and%20all%20associated%20data.%20I%20am%20sending%20this%20from%20the%20email%20address%20associated%20with%20my%20account.">Email a deletion request</a>
+</div>
+
+<h2>What data is deleted</h2>
+<p>When your request is processed, the following data is <strong>permanently deleted</strong> from our
+backend:</p>
+<table>
+  <tr><th>Data</th><th>Description</th></tr>
+  <tr><td>Account &amp; profile</td><td>Your name, email address, and phone number</td></tr>
+  <tr><td>User ID</td><td>The unique identifier that links your account to your data</td></tr>
+  <tr><td>In-app messages</td><td>The chat messages you exchanged with your trainer or gym owner</td></tr>
+  <tr><td>Gym check-ins</td><td>Your recorded check-in history</td></tr>
+  <tr><td>Diet plan</td><td>Your diet plan information</td></tr>
+  <tr><td>Push token</td><td>Your device's Firebase Cloud Messaging notification token</td></tr>
+  <tr><td>Authentication record</td><td>Your sign-in entry in our authentication system</td></tr>
+</table>
+
+<h2>What data is kept</h2>
+<p>We do <strong>not</strong> retain personal data about you after deletion completes. We keep
+<strong>no</strong> copy of your name, email, phone number, messages, check-ins, or diet plan. Residual
+copies in our provider's (Supabase) encrypted backups are purged on the normal backup rotation, within
+the same 30-day window. We may retain a minimal record of the deletion request itself (for example, that
+a request was fulfilled) only where required to comply with our legal obligations; this record does not
+identify you to other users.</p>
+
+<h2>Data stored only on your device</h2>
+<p>Your sign-in session token is stored only on your phone and is never tied to your identity on our
+servers. You can remove it yourself at any time:</p>
+<ul>
+  <li><strong>Sign out</strong> in the app to clear your stored sign-in session.</li>
+  <li><strong>Uninstall</strong> the app to remove all locally stored data from your device.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>For any questions about deleting your data, contact us:<br>
+<strong>Rizzfit</strong> &mdash; <a href="mailto:support@rizzfit.in">support@rizzfit.in</a></p>
+
+<p class="meta">See also our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+
+</body>
+</html>

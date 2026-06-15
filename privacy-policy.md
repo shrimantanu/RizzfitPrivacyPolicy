@@ -97,8 +97,8 @@ secure, but we take reasonable measures to protect your data.
 ## 6. Data retention
 
 We keep your information for as long as your account is active or as needed to provide the App.
-When you ask us to delete your account, we delete your personal data within a reasonable period,
-except where we must keep it to comply with legal obligations.
+When you ask us to delete your account, we delete your personal data within 30 days, except where
+we must keep it to comply with legal obligations.
 
 ---
 
@@ -107,7 +107,8 @@ except where we must keep it to comply with legal obligations.
 You can:
 - **Access or correct** your profile information from within the App.
 - **Request deletion** of your account and associated personal data by emailing us at
-  **support@rizzfit.in**. We will action your request within a reasonable time.
+  **support@rizzfit.in** — see our [account deletion page](https://shrimantanu.github.io/RizzfitPrivacyPolicy/delete-account.html)
+  for the full steps. We will action your request within a reasonable time.
 - **Withdraw consent** by discontinuing use of the App and requesting deletion.
 
 Depending on where you live, you may have additional rights under laws such as the GDPR or
