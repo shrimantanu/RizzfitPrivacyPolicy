@@ -1,16 +1,6 @@
 # Privacy Policy — Rizzfit Member
 
-> **Before you publish — confirm these 4 fields, then delete this box:**
-> - **Developer / legal name:** `Rizzfit` *(replace with your registered name if different)*
-> - **Contact email:** `shrimantanu@gmail.com` *(this becomes public — use a support address if you prefer)*
-> - **Effective date:** `31 May 2026`
-> - **Governing country:** `India`
->
-> Everything below already matches what the app collects today (name, email, phone,
-> in-app chat, check-ins, diet plan). Keep it honest — it must agree with your
-> **Data safety** form in Play Console.
-
-**Effective date:** 31 May 2026
+**Effective date:** 15 June 2026
 
 Rizzfit ("we", "us", "our") operates the **Rizzfit Member** Android application (the "App").
 This Privacy Policy explains what information we collect, how we use it, and the choices you
@@ -42,14 +32,27 @@ use it for advertising.
 - **App activity:** basic interaction data needed to operate features (e.g. which screens/actions
   you use).
 - **Identifiers:** a **user ID** that links your account to your data.
+- **Push token:** a **device push token** issued by Google Firebase Cloud Messaging, stored on
+  our backend so we can send you notifications. You can turn notifications off at any time.
 
 ### c) Information from Google Sign-In
 When you sign in with Google, Google shares your **name, email address, and a unique account
 identifier** with the App so we can create and secure your account. We do not receive your Google
 password.
 
-We request only the **Internet** permission. The App does **not** access your camera, microphone,
-contacts, precise location, or device advertising ID.
+### d) Device permissions
+
+The App uses the following Android permissions:
+
+- **Internet** — to communicate with our backend.
+- **Notifications** (Android 13+) — to show push notifications from your trainer, gym owner, or
+  gym. You can turn these off at any time in the App's Settings or in your device settings.
+- **Camera** (optional) — used **only** to scan a QR code when you pair with a trainer. Camera
+  frames are processed **on your device** to read the code; we do **not** capture photos or
+  video, and we do **not** upload or store any camera images. The App still installs and works
+  on devices without a camera.
+
+The App does **not** access your microphone, contacts, precise location, or device advertising ID.
 
 ---
 
@@ -59,6 +62,7 @@ We use your information to:
 - create and secure your account and sign you in;
 - show your membership, check-ins, and diet plan;
 - deliver private chat between you and your trainer or gym owner;
+- send you push notifications about messages and gym updates (you can opt out at any time);
 - operate, maintain, and improve the App;
 - respond to support requests.
 
@@ -74,6 +78,8 @@ We share data only with service providers that operate the App on our behalf:
 - **Google** — provides sign-in (Google Identity) and app distribution (Google Play). If you
   purchase a subscription in the future, payments are processed by **Google Play**; we never
   receive or store your card or payment details.
+- **Google Firebase Cloud Messaging** — delivers push notifications to your device. We share
+  your device's push token with this service so notifications can reach you.
 
 We may also disclose information if required by law or to protect our rights, users, or the public.
 
@@ -137,33 +143,3 @@ where appropriate.
 Questions or requests about this policy or your data:
 
 **Rizzfit** — shrimantanu@gmail.com
-
----
-
-<!--
-=====================================================================================
-HOSTING — get a public URL in ~5 minutes (Play Console requires a publicly reachable link)
-
-OPTION 1 — GitHub Pages (recommended, free)
-  1. Create a public GitHub repo, e.g. "rizzfit-legal".
-  2. Add this file as  privacy-policy.md  (or rename to README.md).
-  3. Repo Settings -> Pages -> Source: "Deploy from a branch" -> Branch: main / root -> Save.
-  4. Wait ~1 min. Your URL becomes:
-        https://<your-username>.github.io/rizzfit-legal/privacy-policy
-     (or .../rizzfit-legal/ if you named it README.md)
-  5. Open it in a browser to confirm it loads, then paste that URL into
-     Play Console -> App content -> Privacy policy.
-
-OPTION 2 — GitHub Gist (fastest)
-  1. Go to https://gist.github.com  -> new PUBLIC gist named privacy-policy.md.
-  2. Paste this file's contents (remove this HTML comment block) -> Create public gist.
-  3. Use the gist URL as your privacy policy link.
-
-OPTION 3 — Google Sites
-  1. https://sites.google.com -> blank site -> paste the text (headings will format).
-  2. Publish -> copy the public URL.
-
-NOTE: Delete the "Before you publish" box and this comment block before going live,
-and make sure the same facts match your Data safety declarations.
-=====================================================================================
--->
